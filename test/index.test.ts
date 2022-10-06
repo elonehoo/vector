@@ -1,10 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { Vector } from '../src'
 
-class NDimensional<Dimensions extends number[]> extends Vector<
-	Dimensions,
-	number
-> {
+class NDimensional<Dimensions extends number[]> extends Vector< Dimensions, number > {
   lastSet?: number
   lastCoords?: Dimensions
   get(...coords: Dimensions) {
