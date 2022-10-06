@@ -1,14 +1,15 @@
 {
-  "name": "tiem-mini",
+  "name": "@elonehoo/vector",
   "version": "0.0.0",
   "license": "MIT",
+  "type": "module",
   "author": "Elone Hoo <huchengyea@163.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elonehoo/titem-mini"
+    "url": "git+https://github.com/elonehoo/vector"
   },
-  "homepage": "https://github.com/elonehoo/titem-mini#readme",
-  "bugs": "https://github.com/elonehoo/titem-mini/issues",
+  "homepage": "https://github.com/elonehoo/vector#readme",
+  "bugs": "https://github.com/elonehoo/vector/issues",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
